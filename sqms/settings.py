@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-et@e1ojb)ohsqybz@2$p3tc2*p^!5i+^-@&j9ayzia@7mxjcd3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['queueai.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://QueueAI.com",
+    "https://sqms.com",
 ]
 
 from datetime import timedelta
